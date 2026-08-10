@@ -1,16 +1,16 @@
 # 🚀 100-Day Frontend Development Challenge
 
-**Start Date:** _________________  
-**End Date:** _________________  
-**Python Challenge:** Running alongside (Day ___ of 100)
+**Start Date:** Monday, 10th August, 2026.  
+**End Date:** Wednesday, 18 November, 2026  
+**Python Challenge:** Running alongside (Day 3 of 100)
 
 ---
 
 ## 📋 Challenge Rules
 - ✅ Code for at least **30 minutes** every day
 - ✅ Push to GitHub daily (even if it's just 1 line)
-- ✅ No skipping 2 days in a row
-- ✅ Post your progress on socials (optional but motivating)
+- ✅ No skipping
+- ✅ Post your progress on socials
 
 ---
 
