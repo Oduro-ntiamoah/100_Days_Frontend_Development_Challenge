@@ -1,685 +1,140 @@
-# 🚀 100-Day Frontend Development Challenge
+# 100 Day Frontend Development Challenge
 
-**Start Date:** Monday, 10th August, 2026.  
-**End Date:** Wednesday, 18 November, 2026  
-**Python Challenge:** Running alongside (Day 3 of 100)
+A day-by-day roadmap from HTML/CSS basics to full interactive apps. Pairs nicely with your Python challenge — same discipline, different muscle.
 
----
+## How to use this
 
-## 📋 Challenge Rules
-- ✅ Code for at least **30 minutes** every day
-- ✅ Push to GitHub daily (even if it's just 1 line)
-- ✅ No skipping
-- ✅ Post your progress on socials
+- Spend 30–90 minutes per day. Some days are small builds, some are concept days, some are "polish and refactor" days.
+- Push each project to a GitHub repo (one repo, one folder per day, or one repo per project — your call).
+- Don't skip the "polish" days. That's where you actually get good.
+- Miss a day? Don't restart the count. Just keep going.
 
 ---
 
-## 🗺️ Roadmap
+## Phase 1: HTML & CSS Foundations (Days 1–20)
 
-| Phase | Days | Focus Area |
-|-------|------|------------|
-| **Phase 1** | 1–10 | HTML & CSS Fundamentals + Login/Signup Flow |
-| **Phase 2** | 11–20 | JavaScript DOM Manipulation + To-Do App |
-| **Phase 3** | 21–30 | APIs + Async/Await + Weather App |
-| **Phase 4** | 31–40 | JavaScript Games (Calculator, Clock, Stopwatch) |
-| **Phase 5** | 41–50 | CSS Animations + Interactive Landing Page |
-| **Phase 6** | 51–60 | Advanced DOM + Note-Taking App |
-| **Phase 7** | 61–70 | API Pagination + Search + Recipe/Movie App |
-| **Phase 8** | 71–80 | Drag & Drop API + Task Board (Trello Clone) |
-| **Phase 9** | 81–90 | Framework Introduction (React or Vue) |
-| **Phase 10** | 91–100 | Portfolio Building + Deployment |
+| Day | Task |
+|---|---|
+| 1 | **Login page** — email/password fields, labels, a submit button. Just structure and basic styling, no JS yet. |
+| 2 | Sign-up page (name, email, password, confirm password) |
+| 3 | Style Day 1's login page properly — spacing, colors, a card layout |
+| 4 | Simple personal profile/bio page (single page, no CSS framework) |
+| 5 | Pricing page with 3 pricing cards side by side |
+| 6 | Restaurant menu page (sections, categories, prices) |
+| 7 | Recipe page (ingredients list + steps) |
+| 8 | 404 error page |
+| 9 | Learn Flexbox — rebuild Day 5's pricing cards using Flexbox properly |
+| 10 | Learn CSS Grid — build a photo gallery grid (static images/placeholders) |
+| 11 | Responsive navbar (hamburger menu on mobile, using pure CSS/media queries) |
+| 12 | Footer component with columns (links, social icons, copyright) |
+| 13 | Blog post layout (title, hero image, body text, sidebar) |
+| 14 | Product card component (image, title, price, "Add to Cart" button) |
+| 15 | Testimonials section (3 review cards) |
+| 16 | FAQ page layout (just static, accordion behavior comes later) |
+| 17 | Landing page hero section (headline, subtext, CTA button, image) |
+| 18 | Full landing page — combine hero + pricing + testimonials + footer into one page |
+| 19 | CSS animations — hover effects, transitions on buttons and cards |
+| 20 | **Review day** — pick your weakest layout from Days 1–19 and rebuild it from scratch |
 
----
+## Phase 2: JavaScript Fundamentals for the DOM (Days 21–40)
 
-## 📅 Daily Progress Log
+| Day | Task |
+|---|---|
+| 21 | JS basics refresher — variables, functions, DOM selection (`querySelector`) |
+| 22 | Make Day 1's login page functional — validate fields, show error messages |
+| 23 | Character counter (textarea that shows remaining characters) |
+| 24 | Show/hide password toggle on a login form |
+| 25 | Light/dark mode toggle (persist choice with `localStorage`) |
+| 26 | To-do list — add items |
+| 27 | To-do list — delete and mark items complete |
+| 28 | To-do list — persist list with `localStorage` |
+| 29 | Simple calculator (buttons + display) |
+| 30 | Digital clock (updates every second) |
+| 31 | Countdown timer to a specific date |
+| 32 | Accordion component (click to expand/collapse) — apply to Day 16's FAQ page |
+| 33 | Image slider/carousel (manual next/prev buttons) |
+| 34 | Auto-playing carousel with pause-on-hover |
+| 35 | Modal/popup window (open, close, click-outside-to-close) |
+| 36 | Tabs component (switch content without reloading) |
+| 37 | Form validation library — build reusable validation for email, password strength, required fields |
+| 38 | Star rating widget (click to rate) |
+| 39 | Drag-and-drop list reordering |
+| 40 | **Review day** — refactor your to-do list (Days 26–28) with everything you've learned since |
 
-### 🔹 PHASE 1: HTML/CSS Fundamentals (Days 1–10)
+## Phase 3: APIs, Async & Real Data (Days 41–60)
 
-#### Day 1 – HTML Structure
-- [ ] Created `index.html` with semantic HTML
-- [ ] Added email, password fields, and submit button
-- [ ] Linked `style.css` and `script.js`
-- **Notes:** _________________________________
+| Day | Task |
+|---|---|
+| 41 | `fetch()` basics — display a joke from a free joke API |
+| 42 | Weather app (search city, show current weather) using a free weather API |
+| 43 | Random quote generator with a "new quote" button |
+| 44 | GitHub profile viewer (enter username, show avatar/bio/repos) |
+| 45 | Movie search app (search title, show poster + details) |
+| 46 | Country info app (search country, show flag/capital/population) |
+| 47 | Currency converter using a live exchange rate API |
+| 48 | Recipe search app (search ingredient, show matching recipes) |
+| 49 | Loading spinners and skeleton screens — add to Days 42–48 |
+| 50 | Error handling — add proper error states (no results, API down, no internet) across your API projects |
+| 51 | Pagination — build a paginated list from a large public dataset (e.g. `jsonplaceholder`) |
+| 52 | Infinite scroll version of Day 51 |
+| 53 | Search-as-you-type with debounce |
+| 54 | Filter and sort UI for a product list |
+| 55 | Shopping cart — add/remove items, calculate total |
+| 56 | Shopping cart — persist cart with `localStorage` |
+| 57 | Multi-step form (progress bar, next/back between steps) |
+| 58 | File upload with image preview |
+| 59 | Simple chat UI (static, just the interface — messages, input, send button) |
+| 60 | **Review day** — pick your favorite API project and make it fully responsive + polished |
 
-#### Day 2 – CSS Styling
-- [ ] Centered login form using Flexbox
-- [ ] Added gradient background
-- [ ] Styled inputs with rounded corners and shadows
-- [ ] Added hover effects on button
-- **Notes:** _________________________________
+## Phase 4: A Real Framework — React (Days 61–80)
 
-#### Day 3 – Responsive Design
-- [ ] Added media queries for mobile/tablet/desktop
-- [ ] Integrated Google Fonts
-- [ ] Added Font Awesome icons to inputs
-- **Notes:** _________________________________
+| Day | Task |
+|---|---|
+| 61 | Set up React (Vite), understand components, JSX, props |
+| 62 | Rebuild Day 1's login page as a React component |
+| 63 | `useState` — rebuild the Day 26–28 to-do list in React |
+| 64 | `useEffect` — rebuild the Day 42 weather app in React |
+| 65 | Props drilling practice — parent/child component communication |
+| 66 | Conditional rendering — loading/error/success states as components |
+| 67 | Lists and keys — render a product grid from an array of objects |
+| 68 | Controlled forms in React — rebuild Day 57's multi-step form |
+| 69 | React Router — set up multi-page navigation (Home, About, Contact) |
+| 70 | Nested routes and route params (e.g. `/product/:id`) |
+| 71 | Context API — build a theme (light/dark) or auth context |
+| 72 | Custom hooks — extract a `useFetch` hook from your API projects |
+| 73 | Rebuild the Day 55 shopping cart in React using Context |
+| 74 | Component library basics — build reusable Button, Input, and Card components |
+| 75 | Form handling library (e.g. React Hook Form) — rebuild a form with it |
+| 76 | Animations in React (e.g. Framer Motion) — animate a page transition |
+| 77 | Connect to a real backend/database (e.g. Firebase or Supabase) — simple notes app |
+| 78 | Authentication — add real sign-up/login using Firebase/Supabase auth |
+| 79 | Deploy a React app (Vercel or Netlify) |
+| 80 | **Review day** — refactor your biggest React project for cleaner component structure |
 
-#### Day 4 – Show/Hide Password
-- [ ] Added eye icon toggle
-- [ ] Toggled input type between `password` and `text`
-- [ ] Changed icon based on visibility state
-- **Notes:** _________________________________
+## Phase 5: Capstone Projects & Polish (Days 81–100)
 
-#### Day 5 – Form Validation
-- [ ] Email validation (must contain `@`)
-- [ ] Password validation (min 8 characters)
-- [ ] Real-time border color changes (red/green)
-- [ ] Displayed error messages
-- **Notes:** _________________________________
-
-#### Day 6 – Loading & Toast Notifications
-- [ ] Added loading spinner on button click
-- [ ] Simulated API call with `setTimeout()`
-- [ ] Showed "Login Successful!" toast notification
-- [ ] Auto-hide toast after 3 seconds
-- **Notes:** _________________________________
-
-#### Day 7 – Sign-Up Page
-- [ ] Created sign-up form (name, email, password, confirm password)
-- [ ] Added Terms & Conditions checkbox
-- [ ] Styled consistently with login page
-- **Notes:** _________________________________
-
-#### Day 8 – Navigation
-- [ ] Added navbar with Login/Signup links
-- [ ] Built a simple router (show/hide pages with JS)
-- [ ] Made active link highlight
-- **Notes:** _________________________________
-
-#### Day 9 – Dark Mode
-- [ ] Implemented dark/light mode toggle
-- [ ] Used CSS custom properties (`var(--bg-color)`)
-- [ ] Saved preference to `localStorage`
-- **Notes:** _________________________________
-
-#### Day 10 – Polish & Transitions
-- [ ] Added smooth CSS transitions (0.3s ease)
-- [ ] Added shake animation for invalid inputs
-- [ ] Button scale animation on hover
-- [ ] Reviewed and refactored code
-- **Notes:** _________________________________
-
----
-
-### 🔹 PHASE 2: JavaScript DOM & To-Do App (Days 11–20)
-
-#### Day 11 – To-Do App HTML Structure
-- [ ] Built input field + "Add" button
-- [ ] Created empty task list container
-- [ ] Added filter buttons (All, Active, Completed)
-- **Notes:** _________________________________
-
-#### Day 12 – Add Tasks
-- [ ] Added task to list when "Add" clicked
-- [ ] Prevented empty submissions
-- [ ] Displayed task with checkbox and delete button
-- **Notes:** _________________________________
-
-#### Day 13 – Delete Tasks
-- [ ] Added delete functionality
-- [ ] Added smooth removal animation
-- [ ] Confirmation dialog for delete (optional)
-- **Notes:** _________________________________
-
-#### Day 14 – Complete Tasks
-- [ ] Toggle task completion with checkbox
-- [ ] Strikethrough completed tasks
-- [ ] Changed background color for completed tasks
-- **Notes:** _________________________________
-
-#### Day 15 – Filter Tasks
-- [ ] Implemented "All", "Active", "Completed" filters
-- [ ] Show/hide tasks based on filter
-- **Notes:** _________________________________
-
-#### Day 16 – LocalStorage
-- [ ] Saved tasks to `localStorage`
-- [ ] Loaded tasks on page refresh
-- [ ] Auto-save on every change
-- **Notes:** _________________________________
-
-#### Day 17 – Edit Tasks
-- [ ] Double-click to edit task text
-- [ ] Inline editing with input field
-- [ ] Save on Enter or blur
-- **Notes:** _________________________________
-
-#### Day 18 – Task Counter
-- [ ] Displayed total tasks
-- [ ] Showed remaining (active) tasks
-- [ ] "Clear Completed" button
-- **Notes:** _________________________________
-
-#### Day 19 – Drag & Drop Reordering
-- [ ] Made tasks draggable
-- [ ] Reordered tasks on drop
-- [ ] Saved new order to localStorage
-- **Notes:** _________________________________
-
-#### Day 20 – Polish & Review
-- [ ] Added CSS animations
-- [ ] Made fully responsive
-- [ ] Code review and refactoring
-- **Notes:** _________________________________
+| Day | Task |
+|---|---|
+| 81–85 | **Capstone 1**: Full e-commerce-style app — product listing, cart, checkout flow, auth (combine everything from Phases 3–4) |
+| 86–90 | **Capstone 2**: Dashboard app — charts (e.g. Chart.js/Recharts), data tables, filters, dark mode |
+| 91–93 | **Capstone 3**: Social feed clone — posts, likes, comments (static or real backend) |
+| 94 | Accessibility pass — audit all 3 capstones with Lighthouse, fix contrast/alt-text/keyboard nav issues |
+| 95 | Performance pass — audit load times, optimize images, lazy-load components |
+| 96 | Mobile responsiveness pass — test all 3 capstones at 375px, 768px, 1024px+ |
+| 97 | Write README files for your 3 capstone repos (screenshots, tech stack, how to run) |
+| 98 | Build a portfolio site showcasing everything (or update an existing one) |
+| 99 | Deploy everything, fix any last bugs |
+| 100 | **Reflect** — write up what you learned, what you'd do differently, and pick your next challenge (TypeScript? Mobile with React Native? A CSS framework deep-dive?) |
 
 ---
 
-### 🔹 PHASE 3: APIs & Weather App (Days 21–30)
+## Notes on tools
 
-#### Day 21 – API Basics
-- [ ] Learned about REST APIs and `fetch()`
-- [ ] Practiced `async/await`
-- [ ] Used `try/catch` for error handling
-- **Notes:** _________________________________
+- **Editor**: VS Code
+- **Days 1–60**: plain HTML/CSS/JS — no framework needed, no build tools needed
+- **Days 61+**: Vite + React is the lightest path in
+- **Free APIs to keep bookmarked**: OpenWeatherMap, JokeAPI, REST Countries, OMDb (movies), JSONPlaceholder, ExchangeRate-API
 
-#### Day 22 – Weather App Structure
-- [ ] Built search bar + city input
-- [ ] Created weather display container
-- [ ] Signed up for OpenWeatherMap API key
-- **Notes:** _________________________________
+## Optional: swap in mobile
 
-#### Day 23 – Fetch Weather Data
-- [ ] Made API call with city name
-- [ ] Parsed JSON response
-- [ ] Displayed temperature, humidity, wind speed
-- **Notes:** _________________________________
-
-#### Day 24 – Dynamic Icons
-- [ ] Displayed weather condition icons
-- [ ] Changed icon based on weather (sunny/rainy/cloudy)
-- [ ] Added background color change based on weather
-- **Notes:** _________________________________
-
-#### Day 25 – 5-Day Forecast
-- [ ] Fetched and displayed 5-day forecast
-- [ ] Showed daily high/low temperatures
-- [ ] Responsive grid for forecast cards
-- **Notes:** _________________________________
-
-#### Day 26 – Geolocation
-- [ ] Used browser geolocation API
-- [ ] Auto-fetched weather for user's location
-- [ ] Show "Use My Location" button
-- **Notes:** _________________________________
-
-#### Day 27 – Search History
-- [ ] Saved search history in localStorage
-- [ ] Showed recent searches as buttons
-- [ ] One-click to re-search
-- **Notes:** _________________________________
-
-#### Day 28 – Error Handling
-- [ ] Showed user-friendly error messages
-- [ ] Handled "city not found" gracefully
-- [ ] Added loading skeleton while fetching
-- **Notes:** _________________________________
-
-#### Day 29 – Unit Toggle
-- [ ] Added Celsius/Fahrenheit toggle
-- [ ] Converted temperatures dynamically
-- [ ] Saved preference in localStorage
-- **Notes:** _________________________________
-
-#### Day 30 – Polish & Deploy
-- [ ] Added smooth animations
-- [ ] Made fully responsive
-- [ ] Deployed to Netlify/Vercel
-- [ ] Got live URL: _________________
-- **Notes:** _________________________________
-
----
-
-### 🔹 PHASE 4: JavaScript Games (Days 31–40)
-
-#### Day 31 – Calculator HTML
-- [ ] Built calculator grid (numbers, operators, display)
-- **Notes:** _________________________________
-
-#### Day 32 – Calculator Logic
-- [ ] Implemented add/subtract/multiply/divide
-- [ ] Chained operations
-- [ ] Clear and backspace buttons
-- **Notes:** _________________________________
-
-#### Day 33 – Calculator Polish
-- [ ] Keyboard support
-- [ ] Error handling (division by zero)
-- [ ] Beautiful CSS styling
-- **Notes:** _________________________________
-
-#### Day 34 – Digital Clock
-- [ ] Live updating clock (hours:minutes:seconds)
-- [ ] AM/PM or 24-hour toggle
-- [ ] Date display
-- **Notes:** _________________________________
-
-#### Day 35 – Stopwatch
-- [ ] Start/Stop/Reset functionality
-- [ ] Lap timer
-- [ ] Display lap times in a list
-- **Notes:** _________________________________
-
-#### Day 36 – Tic-Tac-Toe Structure
-- [ ] Built 3x3 grid
-- [ ] Player X and O turns
-- [ ] Click to place marker
-- **Notes:** _________________________________
-
-#### Day 37 – Tic-Tac-Toe Logic
-- [ ] Win detection (rows, columns, diagonals)
-- [ ] Draw detection
-- [ ] Highlight winning line
-- **Notes:** _________________________________
-
-#### Day 38 – Tic-Tac-Toe Polish
-- [ ] Score tracking (X wins, O wins, draws)
-- [ ] Reset button
-- [ ] Animations for moves
-- **Notes:** _________________________________
-
-#### Day 39 – Memory Card Game
-- [ ] Built grid of cards (emojis or images)
-- [ ] Flip animation on click
-- [ ] Match pairs logic
-- **Notes:** _________________________________
-
-#### Day 40 – Memory Card Polish
-- [ ] Move counter
-- [ ] Timer
-- [ ] Restart button
-- [ ] Win celebration animation
-- **Notes:** _________________________________
-
----
-
-### 🔹 PHASE 5: CSS Animations (Days 41–50)
-
-#### Day 41 – Keyframe Basics
-- [ ] Learned `@keyframes`
-- [ ] Created bounce, pulse, and fade animations
-- **Notes:** _________________________________
-
-#### Day 42 – Animated Landing Page
-- [ ] Built hero section with animated text
-- [ ] Fade-in on page load
-- **Notes:** _________________________________
-
-#### Day 43 – Parallax Scrolling
-- [ ] Implemented scroll-based animations
-- [ ] Elements fade in as user scrolls
-- **Notes:** _________________________________
-
-#### Day 44 – Hover & Click Animations
-- [ ] Added hover animations to all buttons
-- [ ] Click ripple effect
-- **Notes:** _________________________________
-
-#### Day 45 – Animated Navigation
-- [ ] Hamburger menu with slide animation
-- [ ] Mobile nav slide-in from side
-- **Notes:** _________________________________
-
-#### Day 46 – Loading Animations
-- [ ] Created CSS-only spinners
-- [ ] Skeleton loading screens
-- **Notes:** _________________________________
-
-#### Day 47 – SVG Animations
-- [ ] Animated SVG graphics
-- [ ] Drawing effect with stroke-dasharray
-- **Notes:** _________________________________
-
-#### Day 48 – Carousel Slider
-- [ ] Image carousel with slide animation
-- [ ] Auto-play with pause on hover
-- [ ] Dot indicators
-- **Notes:** _________________________________
-
-#### Day 49 – Animated Background
-- [ ] Animated gradient background
-- [ ] Particle or wave animation
-- **Notes:** _________________________________
-
-#### Day 50 – Animation Portfolio
-- [ ] Built a page showcasing all animations
-- [ ] Deployed to GitHub Pages
-- **Notes:** _________________________________
-
----
-
-### 🔹 PHASE 6: Note-Taking App (Days 51–60)
-
-#### Day 51 – Notes Structure
-- [ ] Built note input with title and content
-- [ ] Display area for saved notes
-- **Notes:** _________________________________
-
-#### Day 52 – CRUD Operations
-- [ ] Create, Read, Update, Delete notes
-- [ ] localStorage persistence
-- **Notes:** _________________________________
-
-#### Day 53 – Search & Filter
-- [ ] Real-time search by title/content
-- [ ] Filter by category/tag
-- **Notes:** _________________________________
-
-#### Day 54 – Rich Text Editor
-- [ ] Added bold, italic, underline
-- [ ] Bullet points and numbering
-- **Notes:** _________________________________
-
-#### Day 55 – Categories/Tags
-- [ ] Add tags to notes
-- [ ] Filter by tags
-- **Notes:** _________________________________
-
-#### Day 56 – Note Preview
-- [ ] Card view with preview of content
-- [ ] Click to expand full note
-- **Notes:** _________________________________
-
-#### Day 57 – Pin Important Notes
-- [ ] Pin/unpin notes
-- [ ] Pinned notes appear at top
-- **Notes:** _________________________________
-
-#### Day 58 – Export/Import
-- [ ] Export notes as JSON
-- [ ] Import notes from JSON file
-- **Notes:** _________________________________
-
-#### Day 59 – Dark/Light Mode
-- [ ] Added dark/light toggle
-- [ ] Saved preference in localStorage
-- **Notes:** _________________________________
-
-#### Day 60 – Polish & Deploy
-- [ ] Smooth animations
-- [ ] Responsive design
-- [ ] Deployed to Vercel/Netlify
-- **Notes:** _________________________________
-
----
-
-### 🔹 PHASE 7: Advanced API Projects (Days 61–70)
-
-#### Day 61 – Movie Search Structure
-- [ ] Built search interface
-- [ ] Signed up for OMDB API or TMDB API
-- **Notes:** _________________________________
-
-#### Day 62 – Movie Search Logic
-- [ ] Fetch movies by title
-- [ ] Display posters, year, rating
-- **Notes:** _________________________________
-
-#### Day 63 – Pagination
-- [ ] Added Previous/Next buttons
-- [ ] Displayed page numbers
-- **Notes:** _________________________________
-
-#### Day 64 – Movie Details Page
-- [ ] Click movie to see full details
-- [ ] Display plot, cast, runtime, etc.
-- **Notes:** _________________________________
-
-#### Day 65 – Favorites
-- [ ] Add/remove favorites
-- [ ] Save to localStorage
-- **Notes:** _________________________________
-
-#### Day 66 – Recipe Search
-- [ ] Built recipe search with Spoonacular API
-- [ ] Display recipe cards with images
-- **Notes:** _________________________________
-
-#### Day 67 – Recipe Filter
-- [ ] Filter by cuisine, diet, time
-- [ ] Show/hide filters with toggle
-- **Notes:** _________________________________
-
-#### Day 68 – Recipe Details
-- [ ] Click to view full recipe
-- [ ] Show ingredients and instructions
-- **Notes:** _________________________________
-
-#### Day 69 – Meal Planner
-- [ ] Add recipes to weekly meal plan
-- [ ] Display meal plan by day
-- **Notes:** _________________________________
-
-#### Day 70 – API Project Polish
-- [ ] Combined movie + recipe apps into one
-- [ ] Added navigation between them
-- [ ] Deployed with live URL
-- **Notes:** _________________________________
-
----
-
-### 🔹 PHASE 8: Drag & Drop Task Board (Days 71–80)
-
-#### Day 71 – Task Board Structure
-- [ ] Created columns (To-Do, In Progress, Done)
-- [ ] Added "Add Task" button
-- **Notes:** _________________________________
-
-#### Day 72 – Add Tasks
-- [ ] Modal form for new tasks
-- [ ] Assign task to column
-- **Notes:** _________________________________
-
-#### Day 73 – Drag & Drop
-- [ ] Made tasks draggable
-- [ ] Drop zones in each column
-- [ ] Move task between columns
-- **Notes:** _________________________________
-
-#### Day 74 – LocalStorage
-- [ ] Saved board state to localStorage
-- [ ] Loaded tasks on page load
-- **Notes:** _________________________________
-
-#### Day 75 – Edit & Delete
-- [ ] Edit task details
-- [ ] Delete tasks with confirmation
-- **Notes:** _________________________________
-
-#### Day 76 – Task Details
-- [ ] Click task to view details
-- [ ] Add descriptions, due dates
-- **Notes:** _________________________________
-
-#### Day 77 – Search & Filter
-- [ ] Search tasks by title
-- [ ] Filter by assigned user
-- **Notes:** _________________________________
-
-#### Day 78 – Activity Log
-- [ ] Track moved tasks
-- [ ] Display recent activity
-- **Notes:** _________________________________
-
-#### Day 79 – Dark Mode
-- [ ] Added dark/light theme
-- [ ] Smooth theme transitions
-- **Notes:** _________________________________
-
-#### Day 80 – Polish & Deploy
-- [ ] Drag feedback (ghost image)
-- [ ] Responsive design
-- [ ] Deployed to hosting
-- **Notes:** _________________________________
-
----
-
-### 🔹 PHASE 9: Framework Introduction (Days 81–90)
-
-#### Day 81 – Choose Framework
-- [ ] Researched React vs Vue vs Svelte
-- [ ] Decided on: _________________
-- [ ] Set up development environment
-- **Notes:** _________________________________
-
-#### Day 82 – First Component
-- [ ] Built a simple component (Button)
-- [ ] Learned about props
-- **Notes:** _________________________________
-
-#### Day 83 – State Management
-- [ ] Learned useState (React) or ref/data (Vue)
-- [ ] Built counter app
-- **Notes:** _________________________________
-
-#### Day 84 – Conditional Rendering
-- [ ] Show/hide elements based on state
-- [ ] Built toggle component
-- **Notes:** _________________________________
-
-#### Day 85 – Lists & Keys
-- [ ] Rendered list of items
-- [ ] Added add/remove functionality
-- **Notes:** _________________________________
-
-#### Day 86 – Forms in Framework
-- [ ] Built controlled form
-- [ ] Form validation
-- **Notes:** _________________________________
-
-#### Day 87 – API Calls
-- [ ] Fetched data from API
-- [ ] Displayed in component
-- **Notes:** _________________________________
-
-#### Day 88 – Router
-- [ ] Set up routing (React Router/Vue Router)
-- [ ] Created multiple pages
-- **Notes:** _________________________________
-
-#### Day 89 – State Management
-- [ ] Learned Context API/Pinia/Vuex
-- [ ] Shared state across components
-- **Notes:** _________________________________
-
-#### Day 90 – Mini Project
-- [ ] Built a small app with framework
-- [ ] Deployed to hosting
-- **Notes:** _________________________________
-
----
-
-### 🔹 PHASE 10: Portfolio & Deployment (Days 91–100)
-
-#### Day 91 – Portfolio Planning
-- [ ] Sketched layout on paper
-- [ ] Chose color scheme and fonts
-- **Notes:** _________________________________
-
-#### Day 92 – Header & Hero
-- [ ] Built navbar with links
-- [ ] Hero section with intro
-- **Notes:** _________________________________
-
-#### Day 93 – Projects Section
-- [ ] Showcased best 6 projects
-- [ ] Project cards with links
-- **Notes:** _________________________________
-
-#### Day 94 – Skills Section
-- [ ] Displayed tech stack
-- [ ] Progress bars or icons
-- **Notes:** _________________________________
-
-#### Day 95 – About & Contact
-- [ ] About section with bio
-- [ ] Contact form with validation
-- **Notes:** _________________________________
-
-#### Day 96 – Animations
-- [ ] Scroll animations
-- [ ] Smooth transitions
-- **Notes:** _________________________________
-
-#### Day 97 – Responsive Testing
-- [ ] Tested on all screen sizes
-- [ ] Fixed responsive bugs
-- **Notes:** _________________________________
-
-#### Day 98 – SEO & Accessibility
-- [ ] Added meta tags
-- [ ] Semantic HTML
-- [ ] ARIA labels
-- **Notes:** _________________________________
-
-#### Day 99 – Deployment
-- [ ] Deployed portfolio to Netlify/Vercel
-- [ ] Custom domain (optional)
-- [ ] Live URL: _________________
-- **Notes:** _________________________________
-
-#### Day 100 – Celebration!
-- [ ] Reviewed all 100 days
-- [ ] Wrote a retrospective blog post
-- [ ] Shared on LinkedIn/Twitter
-- [ ] Started planning next challenge!
-- **Notes:** _________________________________
-
----
-
-## 🏆 Milestone Achievements
-
-| Milestone | Date Completed | Project |
-|-----------|---------------|---------|
-| Day 10 | _____________ | Login/Signup System |
-| Day 20 | _____________ | To-Do App |
-| Day 30 | _____________ | Weather App |
-| Day 40 | _____________ | Games (Calculator, Clock, Tic-Tac-Toe) |
-| Day 50 | _____________ | CSS Animation Showcase |
-| Day 60 | _____________ | Note-Taking App |
-| Day 70 | _____________ | API Search Apps |
-| Day 80 | _____________ | Task Board (Trello Clone) |
-| Day 90 | _____________ | First Framework App |
-| Day 100 | _____________ | Portfolio & Deployment |
-
----
-
-## 📊 Statistics
-
-- **Total Days Completed:** ___ / 100
-- **Projects Built:** ___
-- **GitHub Commits:** ___
-- **Lines of Code:** ~___
-- **Deployed Projects:** ___
-- **Hours Spent:** ~___
-
----
-
-## 💡 Resources Used
-
-- [MDN Web Docs](https://developer.mozilla.org/)
-- [CSS-Tricks](https://css-tricks.com/)
-- [FreeCodeCamp](https://www.freecodecamp.org/)
-- [Frontend Mentor](https://www.frontendmentor.io/)
-- [YouTube Channels] (list them)
-- [Other Resources] (list them)
-
----
-
-## 📝 Notes & Reflections
-
-*Write your daily learnings, struggles, and wins here...*
-
----
-
-## 🎯 Next Challenge
-
-After completing this, my next challenge will be:
-
-- [ ] 100 Days of React
-- [ ] 100 Days of Backend (Node.js/Django)
-- [ ] 100 Days of Mobile (Flutter/React Native)
-- [ ] Other: _________________
-
----
-
-**Keep coding! 🚀 The journey of a thousand miles begins with a single step.**
+If partway through you want to pivot into mobile, React Native reuses almost everything from Phase 4 (components, state, hooks) — you could swap Days 81–100 for a mobile capstone (e.g. rebuild Capstone 1 as a React Native app) instead of starting a separate 100-day track.
